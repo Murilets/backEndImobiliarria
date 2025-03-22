@@ -9,6 +9,7 @@ app.use(cors()); //ativa o cors para fazer requisicao de qualquer origem
 
 //rota para buscar todos os imoveis
 app.get("/imoveis", (req, res) => {
+  const imoveis = imoveisService.list();
   res.json(imoveis);
 });
 

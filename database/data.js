@@ -7,11 +7,6 @@ const imoveis = [
     city: 'Catanduva',
     state: 'SP',
     description: 'fodase',
-    photos: [
-      {
-        url: 'https://iili.io/3zXnPVt.jpg',
-      }
-    ]
   },
   {
     id: 'ba36f342-f673-4d76-997c-2df40aef3492',
