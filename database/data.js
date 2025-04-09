@@ -7,7 +7,7 @@ const imoveis = [
     cep: "15800",
     city: 'CATANDUVA',
      estado: 'SP',
-    description: 'fodase',
+    description: 'Ótima oportunidade para investimento! Este amplo terreno, localizado em uma área estratégica da cidade, oferece um espaço ideal para construção residencial ou comercial. Com fácil acesso a vias principais, o lote está situado em um bairro tranquilo e valorizado, proporcionando segurança e comodidade.',
     features: [
       {
         type: "BATHROOM",
@@ -26,7 +26,7 @@ const imoveis = [
       },
       {
         type: "BEDROOM",
-        description: "Quartos",
+        description: "Quarto(s)",
         quantity: 0,
       }
     ],
@@ -47,7 +47,7 @@ const imoveis = [
     cep: "15800",
     city: 'CATANDUVA',
      estado: 'SP',
-    description: 'fodase',
+    description: 'Localizada em um bairro tranquilo e seguro, esta casa é perfeita para quem busca conforto e qualidade de vida. Com uma arquitetura moderna e bem planejada, ela conta com [X] quarto(s), [X] banheiros, uma ampla sala de estar e uma cozinha funcional. Área externa com quintal generoso, espaço gourmet com churrasqueira e garagem coberta para 2 carros. Localizada em bairro tranquilo e valorizado, próxima a escolas, mercados e vias de fácil acesso. Ideal para famílias que desejam morar bem com segurança e qualidade de vida.Localizada em um bairro tranquilo e seguro, esta casa é perfeita para quem busca conforto e qualidade de vida. Com uma arquitetura moderna e bem planejada, ela conta com [X] quarto(s), [X] banheiros, uma ampla sala de estar e uma cozinha funcional. Área externa com quintal generoso, espaço gourmet com churrasqueira e garagem coberta para 2 carros. Localizada em bairro tranquilo e valorizado, próxima a escolas, mercados e vias de fácil acesso. Ideal para famílias que desejam morar bem com segurança e qualidade de vida.' ,
 
     features: [
       {
@@ -67,7 +67,7 @@ const imoveis = [
     },
     {
       type: "BEDROOM",
-      description: "Quartos",
+      description: "Quarto(s)",
       quantity: 1,
     }
   ],
@@ -108,7 +108,7 @@ const imoveis = [
     },
     {
       type: "BEDROOM",
-      description: "Quartos",
+      description: "Quarto(s)",
       quantity: 3,
     }
   ],
@@ -150,7 +150,7 @@ const imoveis = [
     },
     {
       type: "BEDROOM",
-      description: "Quartos",
+      description: "Quarto(s)",
       quantity: 2,
     }
   ],
