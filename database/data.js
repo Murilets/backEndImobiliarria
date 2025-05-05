@@ -89,7 +89,7 @@ const imoveis = [
     cep: "15870-000",
     city: 'CATIGUA',
      estado: 'SP',
-    description: 'fodase',
+    description: 'Descubra este incrível apartamento que une conforto, praticidade e estilo em um só lugar! Com ambientes amplos, bem iluminados e um acabamento de alto padrão, este imóvel é ideal para quem busca qualidade de vida e bem-estar.',
 
     features: [{
       type: "BATHROOM",
@@ -113,10 +113,9 @@ const imoveis = [
     }
   ],
     photos: [{
-      img1:"https://images.pexels.com/photos/1717272/pexels-photo-1717272.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      img1: "https://images.pexels.com/photos/2251247/pexels-photo-2251247.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       img2:"https://images.pexels.com/photos/19776463/pexels-photo-19776463/free-photo-of-spacious-bathroom-with-white-bathtub-and-beige-walls.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       img3:"https://images.pexels.com/photos/1643384/pexels-photo-1643384.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      img4:"https://images.pexels.com/photos/439227/pexels-photo-439227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       img5:"https://images.pexels.com/photos/533157/pexels-photo-533157.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
            
     }
@@ -131,7 +130,7 @@ const imoveis = [
     cep: "15880-000",
     city: 'TABAPUA',
      estado: 'SP',
-    description: 'fodase',
+    description: 'Localizada em um bairro tranquilo e seguro, esta casa é perfeita para quem busca conforto e qualidade de vida. Com uma arquitetura moderna e bem planejada, ela conta com [X] quarto(s), [X] banheiros, uma ampla sala de estar e uma cozinha funcional. Área externa com quintal generoso, espaço gourmet com churrasqueira e garagem coberta para 2 carros. Localizada em bairro tranquilo e valorizado, próxima a escolas, mercados e vias de fácil acesso. Ideal para famílias que desejam morar bem com segurança e qualidade de vida.Localizada em um bairro tranquilo e seguro, esta casa é perfeita para quem busca conforto e qualidade de vida. Com uma arquitetura moderna e bem planejada, ela conta com [X] quarto(s), [X] banheiros, uma ampla sala de estar e uma cozinha funcional. Área externa com quintal generoso, espaço gourmet com churrasqueira e garagem coberta para 2 carros. Localizada em bairro tranquilo e valorizado, próxima a escolas, mercados e vias de fácil acesso. Ideal para famílias que desejam morar bem com segurança e qualidade de vida.',
 
     features: [{
       type: "BATHROOM",
@@ -161,6 +160,7 @@ const imoveis = [
       img4:"https://images.pexels.com/photos/2631746/pexels-photo-2631746.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     }]
   },
+  
 ];
 
 module.exports = {
