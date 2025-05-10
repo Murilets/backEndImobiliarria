@@ -5,7 +5,15 @@ const imoveisService = require("../service/imoveis"); //chamando os imoveis
 const app = express(); //varriavel de controle do exprress
 const port = 3220; //variavel de controle definindo a porta
 
-app.use(cors()); //ativa o cors para fazer requisicao de qualquer origem
+//ativa o cors para fazer requisicao de qualquer origem
+app.use(cors({
+  origin: [
+    /localhost/, 
+    /brs.devtunnels.ms/
+  ],
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  allowedHeaders: ["Content-Type", "Authorization"],
+}));
 
 //rota para buscar todos os imoveis
 app.get("/imoveis", (req, res) => {
