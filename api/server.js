@@ -5,6 +5,7 @@ const imoveisService = require("../service/imoveis"); //chamando os imoveis
 const app = express(); //varriavel de controle do exprress
 const port = 3220; //variavel de controle definindo a porta
 
+//ativa o cors para fazer requisicao de qualquer origem
 app.use(cors({
   origin: [
     /localhost/, 
