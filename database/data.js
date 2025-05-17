@@ -120,7 +120,6 @@ const imoveis = [
            
     }
   ],
-
   },
   {
     id: '4d93dde1-49c5-4c27-8f1d-e2594e782963',
@@ -160,6 +159,169 @@ const imoveis = [
       img4:"https://images.pexels.com/photos/2631746/pexels-photo-2631746.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     }]
   },
+   {
+    id: '4d93dde1-49c5-4c27-8f1d-e2594e782963',
+    type: 'CASA',
+    price: 100000,
+    street: 'AV. marciano alagoas',
+    cep: "15880-000",
+    city: 'Mirassol',
+     estado: 'SP',
+    description: 'Localizada em um bairro tranquilo e seguro, esta casa é perfeita para quem busca conforto e qualidade de vida. Com uma arquitetura moderna e bem planejada, ela conta com [X] quarto(s), [X] banheiros, uma ampla sala de estar e uma cozinha funcional. Área externa com quintal generoso, espaço gourmet com churrasqueira e garagem coberta para 2 carros. Localizada em bairro tranquilo e valorizado, próxima a escolas, mercados e vias de fácil acesso. Ideal para famílias que desejam morar bem com segurança e qualidade de vida.Localizada em um bairro tranquilo e seguro, esta casa é perfeita para quem busca conforto e qualidade de vida. Com uma arquitetura moderna e bem planejada, ela conta com [X] quarto(s), [X] banheiros, uma ampla sala de estar e uma cozinha funcional. Área externa com quintal generoso, espaço gourmet com churrasqueira e garagem coberta para 2 carros. Localizada em bairro tranquilo e valorizado, próxima a escolas, mercados e vias de fácil acesso. Ideal para famílias que desejam morar bem com segurança e qualidade de vida.',
+
+    features: [{
+      type: "BATHROOM",
+      description: "Banheiros",
+      quantity: 3,
+    },
+    {
+      type: "GARAGE",
+      description: "Garagem",
+      quantity: 2,
+    },
+    {
+      type: "LIVINGROOM",
+      description: "Sala",
+      quantity: 2,
+    },
+    {
+      type: "BEDROOM",
+      description: "Quarto(s)",
+      quantity: 2,
+    }
+  ],
+    photos: [{
+      img1:"https://images.pexels.com/photos/4030036/pexels-photo-4030036.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      img2:"https://images.pexels.com/photos/2121120/pexels-photo-2121120.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      img3:"https://images.pexels.com/photos/2724748/pexels-photo-2724748.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      img4:"https://images.pexels.com/photos/2631746/pexels-photo-2631746.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    }]
+  },
+  {
+    id: 'ba36f342-f673-4d76-997c-2df40aef3492',
+    type: 'CASA',
+    price: 20000,
+    street: 'Rua santo antonio 876',
+    cep: "15800",
+    city: 'Elisiario',
+     estado: 'SP',
+    description: 'Localizada em um bairro tranquilo e seguro, esta casa é perfeita para quem busca conforto e qualidade de vida. Com uma arquitetura moderna e bem planejada, ela conta com [X] quarto(s), [X] banheiros, uma ampla sala de estar e uma cozinha funcional. Área externa com quintal generoso, espaço gourmet com churrasqueira e garagem coberta para 2 carros. Localizada em bairro tranquilo e valorizado, próxima a escolas, mercados e vias de fácil acesso. Ideal para famílias que desejam morar bem com segurança e qualidade de vida.Localizada em um bairro tranquilo e seguro, esta casa é perfeita para quem busca conforto e qualidade de vida. Com uma arquitetura moderna e bem planejada, ela conta com [X] quarto(s), [X] banheiros, uma ampla sala de estar e uma cozinha funcional. Área externa com quintal generoso, espaço gourmet com churrasqueira e garagem coberta para 2 carros. Localizada em bairro tranquilo e valorizado, próxima a escolas, mercados e vias de fácil acesso. Ideal para famílias que desejam morar bem com segurança e qualidade de vida.' ,
+
+    features: [
+      {
+      type: "BATHROOM",
+      description: "Banheiros",
+      quantity: 1,
+    },
+    {
+      type: "GARAGE",
+      description: "Garagem",
+      quantity: 1,
+    },
+    {
+      type: "LIVINGROOM",
+      description: "Sala",
+      quantity: 1,
+    },
+    {
+      type: "BEDROOM",
+      description: "Quarto(s)",
+      quantity: 1,
+    }
+  ],
+    photos: [{
+      img1:"https://images.pexels.com/photos/277667/pexels-photo-277667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      img2:"https://images.pexels.com/photos/3288100/pexels-photo-3288100.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      img3:"https://images.pexels.com/photos/3288104/pexels-photo-3288104.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      img4:"https://images.pexels.com/photos/2635038/pexels-photo-2635038.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      img5:"https://images.pexels.com/photos/3797991/pexels-photo-3797991.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+           
+    }]
+  },
+  {
+    id: 'ba36f342-f673-4d76-997c-2df40aef3492',
+    type: 'CASA',
+    price: 20000,
+    street: 'Rua santo antonio 876',
+    cep: "15800",
+    city: 'Embauba',
+     estado: 'SP',
+    description: 'Localizada em um bairro tranquilo e seguro, esta casa é perfeita para quem busca conforto e qualidade de vida. Com uma arquitetura moderna e bem planejada, ela conta com [X] quarto(s), [X] banheiros, uma ampla sala de estar e uma cozinha funcional. Área externa com quintal generoso, espaço gourmet com churrasqueira e garagem coberta para 2 carros. Localizada em bairro tranquilo e valorizado, próxima a escolas, mercados e vias de fácil acesso. Ideal para famílias que desejam morar bem com segurança e qualidade de vida.Localizada em um bairro tranquilo e seguro, esta casa é perfeita para quem busca conforto e qualidade de vida. Com uma arquitetura moderna e bem planejada, ela conta com [X] quarto(s), [X] banheiros, uma ampla sala de estar e uma cozinha funcional. Área externa com quintal generoso, espaço gourmet com churrasqueira e garagem coberta para 2 carros. Localizada em bairro tranquilo e valorizado, próxima a escolas, mercados e vias de fácil acesso. Ideal para famílias que desejam morar bem com segurança e qualidade de vida.' ,
+
+    features: [
+      {
+      type: "BATHROOM",
+      description: "Banheiros",
+      quantity: 1,
+    },
+    {
+      type: "GARAGE",
+      description: "Garagem",
+      quantity: 1,
+    },
+    {
+      type: "LIVINGROOM",
+      description: "Sala",
+      quantity: 1,
+    },
+    {
+      type: "BEDROOM",
+      description: "Quarto(s)",
+      quantity: 1,
+    }
+  ],
+    photos: [{
+      img1:"https://images.pexels.com/photos/277667/pexels-photo-277667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      img2:"https://images.pexels.com/photos/3288100/pexels-photo-3288100.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      img3:"https://images.pexels.com/photos/3288104/pexels-photo-3288104.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      img4:"https://images.pexels.com/photos/2635038/pexels-photo-2635038.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      img5:"https://images.pexels.com/photos/3797991/pexels-photo-3797991.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+           
+    }]
+  },
+  {
+    id: 'ba36f342-f673-4d76-997c-2df40aef3492',
+    type: 'CASA',
+    price: 20000,
+    street: 'Rua santo antonio 876',
+    cep: "15800",
+    city: 'Marapoama',
+     estado: 'SP',
+    description: 'Localizada em um bairro tranquilo e seguro, esta casa é perfeita para quem busca conforto e qualidade de vida. Com uma arquitetura moderna e bem planejada, ela conta com [X] quarto(s), [X] banheiros, uma ampla sala de estar e uma cozinha funcional. Área externa com quintal generoso, espaço gourmet com churrasqueira e garagem coberta para 2 carros. Localizada em bairro tranquilo e valorizado, próxima a escolas, mercados e vias de fácil acesso. Ideal para famílias que desejam morar bem com segurança e qualidade de vida.Localizada em um bairro tranquilo e seguro, esta casa é perfeita para quem busca conforto e qualidade de vida. Com uma arquitetura moderna e bem planejada, ela conta com [X] quarto(s), [X] banheiros, uma ampla sala de estar e uma cozinha funcional. Área externa com quintal generoso, espaço gourmet com churrasqueira e garagem coberta para 2 carros. Localizada em bairro tranquilo e valorizado, próxima a escolas, mercados e vias de fácil acesso. Ideal para famílias que desejam morar bem com segurança e qualidade de vida.' ,
+
+    features: [
+      {
+      type: "BATHROOM",
+      description: "Banheiros",
+      quantity: 1,
+    },
+    {
+      type: "GARAGE",
+      description: "Garagem",
+      quantity: 1,
+    },
+    {
+      type: "LIVINGROOM",
+      description: "Sala",
+      quantity: 1,
+    },
+    {
+      type: "BEDROOM",
+      description: "Quarto(s)",
+      quantity: 1,
+    }
+  ],
+    photos: [{
+      img1:"https://images.pexels.com/photos/277667/pexels-photo-277667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      img2:"https://images.pexels.com/photos/3288100/pexels-photo-3288100.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      img3:"https://images.pexels.com/photos/3288104/pexels-photo-3288104.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      img4:"https://images.pexels.com/photos/2635038/pexels-photo-2635038.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      img5:"https://images.pexels.com/photos/3797991/pexels-photo-3797991.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+           
+    }]
+  },
+
+  
   
 ];
 
