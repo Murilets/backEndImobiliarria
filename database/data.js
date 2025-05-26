@@ -118,10 +118,11 @@ const imoveis = [
     ],
     photos: [
       {
-        img1: "https://images.pexels.com/photos/2251247/pexels-photo-2251247.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        img2: "https://images.pexels.com/photos/19776463/pexels-photo-19776463/free-photo-of-spacious-bathroom-with-white-bathtub-and-beige-walls.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        img3: "https://images.pexels.com/photos/1643384/pexels-photo-1643384.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        img5: "https://images.pexels.com/photos/533157/pexels-photo-533157.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        img1: "https://images.pexels.com/photos/1648771/pexels-photo-1648771.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+
+        img2: "https://images.pexels.com/photos/1457847/pexels-photo-1457847.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        img3: "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      
       },
     ],
   },
