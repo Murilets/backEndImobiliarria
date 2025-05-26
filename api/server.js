@@ -64,7 +64,7 @@ app.get("/imoveis", (req, res) => {
    console.log("imoveis apos  filtro", imoveis)
 
   if (imoveis.length === 0){
-    return res.status(404).json({message: "Nenhum imovel encontrado"});
+    return res.status(200).json([]);
   }
   res.json(imoveis);
 });
