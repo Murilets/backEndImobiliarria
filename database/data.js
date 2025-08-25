@@ -1,14 +1,15 @@
 const imoveis = [
   {
     id: "e2b68630-1969-4d6b-9721-01efc6a4a47f",
-    type: "TERRENO",
-    price: 5000,
+    type: "PROPRIEDADE RURAL",
+    price: "9.900.000,00",
     street: "Rua Josoares Do Balacobaco 521",
     cep: "15800",
-    city: "CATANDUVA",
+    city: "Monte Azul Paulista",
     estado: "SP",
+    total_area: "33 alqueires",
     description:
-      "Ótima oportunidade para investimento! Este amplo terreno, localizado em uma área estratégica da cidade, oferece um espaço ideal para construção residencial ou comercial. Com fácil acesso a vias principais, o lote está situado em um bairro tranquilo e valorizado, proporcionando segurança e comodidade.",
+      "Benfeitorias: Casa, Barracão, Poço artesiano, Caixa d’água, Curral, Rio Turvo na divisa da propriedade, Solo: cultura",
     features: [
       {
         type: "BATHROOM",
@@ -34,9 +35,9 @@ const imoveis = [
 
     photos: [
       {
-        img1: "https://images.pexels.com/photos/7986062/pexels-photo-7986062.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        img2: "https://images.pexels.com/photos/7986063/pexels-photo-7986063.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        img3: "https://images.pexels.com/photos/16551361/pexels-photo-16551361/free-photo-of-view-of-a-cropland-and-forest-in-the-background-under-a-cloudy-sky.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        img1: "http://localhost:3220/images/arearural1/img1.png",
+        img2: "http://localhost:3220/images/arearural2/img2.png",
+        img3: "http://localhost:3220/images/arearural3/img3.png",
       },
     ],
   },

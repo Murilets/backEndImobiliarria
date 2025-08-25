@@ -1,9 +1,25 @@
 const express = require("express"); //chamando o express
 const cors = require("cors"); //chamando o cors
 const imoveisService = require("../service/imoveis"); //chamando os imoveis
-
+const path = require('path');
+const fs = require('fs');
 const app = express(); //varriavel de controle do exprress
 const port = 3220; //variavel de controle definindo a porta
+
+const imagePath = path.join(__dirname, '../public/images');
+console.log('=== DEBUG DAS IMAGENS ===');
+console.log('__dirname:', __dirname);
+console.log('Caminho das imagens:', imagePath);
+//verificacao se a pasta existe
+if(fs.existsSync(imagePath)) {
+  console.log('Pasta existe');
+//listar oque tem na pasta
+  const files = fs.readdirSync(imagePath, { recursive: true});
+  console.log('arquivo encontrados:', files);
+} else {
+  console.log('Pasta não existe!');
+}
+console.log('====');
 
 //ativa o cors para fazer requisicao de qualquer origem
 app.use(cors({
@@ -15,9 +31,13 @@ app.use(cors({
   allowedHeaders: ["Content-Type", "Authorization"],
 }));
 
+app.use ('/images', express.static(imagePath)) //usando a variavel imagePath
+
 //rota para buscar todos os imoveis
 app.get("/imoveis", (req, res) => {
   const { type, minPrice, maxPrice, city, bedroom, bathroom } = req.query;
+  console.log("valor recebido no filtro de type", type);
+  console.log("valor recebido no filtro de cidade", city);
   let imoveis = imoveisService.list();
 
   //fazendo o filtro do imovel
